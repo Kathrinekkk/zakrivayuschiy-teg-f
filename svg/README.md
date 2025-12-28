@@ -1,1 +1,0 @@
-https://github.com/Kathrinekkk/zakrivayuschiy-teg-f
