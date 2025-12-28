@@ -1,1 +1,42 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P-Regular', sans-serif;
+    
+    --main-font-weight: 400; 
+    --accent-font-weight: 715; 
+    
+    --header-width: clamp(375px, 260.50px + 30.50vw, 700px);
+    --header-height:clamp(323px, 307.15px + 4.23vw, 368px);
+
+    --header-inline: clamp(0px, 50vw, 300px);
+    
+    --logo-width: clamp(343px, 303.56px + 10.52vw, 455px);
+    --title-width: clamp(210px, 162.46px + 12.68vw, 345px);
+    
+    --padding-inline: clamp(16px, 5vw, 122.5px);
+    --padding-block: clamp(122px, 119.18px + 0.75vw, 130px);
+    
+    --background-color: #fff;
+    --text-color: #000;
+
+    --font-title-size:clamp(14px, 3vw, 23px);
+    --font-logo-size: clamp(49px, 43.37px + 1.50vw, 65px);
+
+
+    --card-height: clamp(758px, 40vh ,956px);
+    --card-width: clamp(375px, 260.50px + 30.50vw, 700px);
+
+    --text-width: clamp(321px, 206.56px + 30.52vw, 646px);
+    --card-header-height:clamp(52px, 4vh, 44px);
+
+    --dialog-width: clamp(341px, 336.77px + 1.13vw, 353px);
+    --dialog-container-width: clamp(261px, 249.73px + 3.00vw, 293px);
+
+    --save-button-width: clamp(306px, 295.79px + 2.72vw, 335px);
+    --animation-fill-color: #FF0000;
+    --contour-color:#000;
+    --main-body-color: transparent; 
+    --core-color: transparent;
+    --hover-color: #000000; 
+}
