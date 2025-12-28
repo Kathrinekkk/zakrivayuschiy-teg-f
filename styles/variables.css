@@ -3,8 +3,8 @@
     --main-font: 'Inter-Variable', sans-serif;
     --accent-font: 'PressStart2P-Regular', sans-serif;
     
-    --main-font-weight: 400; 
-    --accent-font-weight: 715; 
+    --main-font-weight: 400;
+    --accent-font-weight: 715;
     
     --header-width: clamp(375px, 260.50px + 30.50vw, 700px);
     --header-height:clamp(323px, 307.15px + 4.23vw, 368px);
@@ -36,7 +36,7 @@
     --save-button-width: clamp(306px, 295.79px + 2.72vw, 335px);
     --animation-fill-color: #FF0000;
     --contour-color:#000;
-    --main-body-color: transparent; 
+    --main-body-color: transparent;
     --core-color: transparent;
-    --hover-color: #000000; 
+    --hover-color: #000000;
 }
